@@ -1,0 +1,36 @@
+.container{margin:auto;}
+
+#answer{width:300px;
+        border-radius:10px;
+        padding-left:10px;}
+ 
+input{font-size:30px;
+      width:65px;
+      height:55px;
+      margin:5px;
+      border:0px solid;
+      border-radius:8px;
+      background:rgb(230,230,230);
+      outline:none;
+    }
+ 
+.calc{background:rgb(220,220,220);
+      padding:10px;
+      border-radius:20px; display:inline-block ;
+    }
+      
+input{
+    box-shadow:5px 5px 5px grey, -5px -5px 5px white;
+    }
+ 
+input:active{
+    box-shadow:inset 5px 5px 5px grey,inset -5px -5px 5px white;
+}
+ 
+#answer{
+    box-shadow:inset 5px 5px 5px grey,inset -5px -5px 5px white;
+}
+ 
+.calc{
+    box-shadow:5px 5px 5px rgb(39, 38, 38), -5px -5px 5px grey;
+}
